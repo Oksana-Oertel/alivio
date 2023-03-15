@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+width: 1920px;
+}
+
+header{
+    border-bottom: 1px solid gray;
+}
+
+.container {
+    width: 1413px;
+    margin: auto;
+    
+}
+
+.navigation{
+line-height: 85px;
+display: flex;
+
+    
+}
+
+.navigation img{
+    margin-top: 30px;
+    height: 23px;
+    margin-right: 172px;
+   
+}
+
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    gap: 72px;
+    margin-right: 283px;
+    
+
+}
+
+.navigation a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+color: #292929;
+
+}
+.sign{
+    margin-right: 35px;
+}
+
+ .button a{
+    
+    background-color:  #01996D;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.promo{
+    background-image: url("../images/relax.png");
+    height: 895px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 1px solid transparent;
+}
+
+.words h1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    
+    color: #01996D; 
+    margin-top: 175px; 
+    margin-bottom: 30px; 
+}
+
+.words{
+    width: 440px;
+}
+
+.words p{
+    width: 420px;
+    margin-bottom: 18px;
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #484848;
+}
+
+.steps{
+    border-top: 1px solid transparent;
+    
+}
+
+.steps .container{
+    margin-top: 196px;
+   
+}
+
+.how{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 157%;
+/* identical to box height, or 38px */
+color: #424242;
+}
+
+.understand{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+color: #01996D;
+width: 584px;
+display: inline-block;
+}
+
+.explain{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+
+color: #424242;
+width: 671px;
+margin-left: 136px;
+display: inline-block;
+}
+
+.features{
+    margin-top: 100px;
+
+}
+
+.feature {
+    display: inline-block;
+    width: 390px;
+    position: relative;
+    
+}
+
+.feature h1{
+    position: absolute;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 150%;
+/* identical to box height, or 225px */
+
+text-align: left;
+
+color: rgba(1, 153, 109, 0.2);
+top: -133px;
+
+
+}
+
+.feature h2{
+    
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+/* identical to box height, or 45px */
+
+text-align: center;
+
+color: #000000;
+margin-bottom: 55px;
+}
+
+.feature p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+color: #424242;
+margin-bottom: 60px;
+}
+
+.mini{
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    bottom: 115px;
+}
+
+.feature2{
+    margin-top: 205px;
+    margin-left: 95px;
+}
+
+.feature3{
+    margin-top: 198px;
+    margin-left: 95px;
+}
+
+.video{
+    border-top: 1px solid transparent;
+    background-color:  #245852;
+
+}
+
+.video .container{
+    
+    display: flex;
+}
+
+.presentation{
+    margin-top: 310px;
+    margin-right: 31px;
+    padding-bottom: 260px;;
+    width: 580px;
+    
+}
+
+.presentation .big{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+color: #FFFFFF;
+}
+
+.presentation .small{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+/* or 39px */
+
+
+color: #FFFFFF;
+margin-bottom: 57px;
+}
+
+.video img{
+    margin-top: 229px;
+    width: 895px;
+    height: 516px;
+}
+
+.product{
+    border-top: 1px solid transparent;
+    
+}
+
+.product .container {
+    margin-top: 120px;
+    margin-bottom: 168px;
+    position: relative;
+    display: flex;
+    gap: 87px;
+}
+
+.product img{
+    margin-left: 61px;
+    margin-bottom: 75px;
+}
+
+.card{
+    position: absolute;
+    z-index: 2;
+    left: -61px;
+    bottom: -75px; 
+}
+
+.our_product p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+/* or 39px */
+
+
+color: #424242;
+margin-bottom: 10px;
+}
+
+.our_product h1{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+
+
+color: #01996D;
+margin-bottom: 20px;
+}
+
+p.details {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #484848;
+margin-bottom: 40px;
+
+
+}
+
+footer{
+    background-color:  #245852;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+footer .links {
+    margin-top: 95px;
+    margin-bottom: 144px;
+}
+footer .links ul{
+    list-style-type: none;
+}
+
+footer .links li{
+    margin-bottom: 60px;
+}
+footer .links a{
+    text-decoration: none;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+footer .links h2{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 55px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin-bottom: 60px;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype");
+}
